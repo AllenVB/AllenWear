@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Gelenler - AllenWear</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo" onclick="window.location.href='index.html'">ALLENWEAR</div>
+        <ul class="nav-links">
+            <li><a href="erkek.html">ERKEK</a></li>
+            <li><a href="kadin.html">KADIN</a></li>
+            <li><a href="aksesuar.html">AKSESUAR</a></li>
+            <li><a href="yeni.html" class="active">YENİ GELENLER</a></li>
+            <li><a href="indirim.html">İNDİRİM</a></li>
+        </ul>
+        <div class="nav-actions">
+            <input type="text" class="search-box" id="searchBox" placeholder="Ürün ara..."
+                onkeyup="searchProducts(event)">
+            <select class="lang-selector">
+                <option value="tr">TR</option>
+                <option value="en">EN</option>
+            </select>
+            <div class="cart-icon" onclick="toggleCart()">
+                🛒
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+            <div class="mobile-menu" onclick="toggleMobileMenu()">☰</div>
+        </div>
+    </nav>
+
+    <section class="category-section" id="yeni" style="margin-top: 80px;">
+        <h2 class="section-title">YENİ GELENLER</h2>
+        <div class="products-grid" id="yeniGrid"></div>
+    </section>
+
+    <footer>
+        <!-- Footer aynı -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ALLENWEAR</h3>
+                <ul>
+                    <li>Hikayemiz</li>
+                    <li>Sürdürülebilirlik</li>
+                    <li>Kariyer</li>
+                    <li>Basın</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>MÜŞTERİ HİZMETLERİ</h3>
+                <ul>
+                    <li>İletişim</li>
+                    <li>Geri Ödeme</li>
+                    <li>Kargo Bilgisi</li>
+                    <li>Beden Tablosu</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>HESABIM</h3>
+                <ul>
+                    <li>Sipariş Takibi</li>
+                    <li>Favoriler</li>
+                    <li>Adreslerim</li>
+                    <li>Hesap Ayarları</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>BİZE ULAŞIN</h3>
+                <p>Email: destek@allenwear.com</p>
+                <p>Telefon: +90 212 555 01 01</p>
+                <input type="email" placeholder="Haber bültenine kaydol"
+                    style="width: 100%; padding: 0.5rem; margin-top: 1rem; border-radius: 5px; border: none;">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AllenWear. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <div class="cart-modal" id="cartModal">
+        <h2 style="margin-bottom: 1.5rem;">SEPETİNİZ</h2>
+        <div id="cartItems"></div>
+        <div class="cart-total">
+            Toplam: <span id="cartTotal">0 TL</span>
+        </div>
+        <button class="checkout-btn" onclick="goToCheckout()">ÖDEMEYE GİT</button>
+    </div>
+
+    <script src="js/cart.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            loadProductsByCategory(yeniProducts, 'yeniGrid');
+            updateCartUI();
+        });
+    </script>
+
+</body>
+
+</html>
