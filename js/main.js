@@ -72,7 +72,7 @@ function createProductCard(product) {
     card.className = 'product-card';
     card.innerHTML = `
         <div class="product-image">
-            <span class="product-image-emoji">${product.image}</span>
+            <img src="${product.image}" alt="${product.name}" class="product-image-emoji" loading="lazy">
             ${product.badge ? `<span class="badge">${product.badge}</span>` : ''}
         </div>
         <div class="product-info">

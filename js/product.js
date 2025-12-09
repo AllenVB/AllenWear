@@ -7,7 +7,7 @@ const popularProducts = [
         price: 449,
         oldPrice: 749,
         category: 'products',
-        image: '🔥 Antibakteriyel Atlet',
+        image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek atlet
         badge: 'EN ÇOK SATAN'
     },
     {
@@ -17,7 +17,7 @@ const popularProducts = [
         price: 399,
         oldPrice: 599,
         category: 'products',
-        image: '💨 Dry-Fit T-Shirt',
+        image: 'https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Beyaz T-shirt
         badge: 'HAFTANIN ÜRÜNÜ'
     },
     {
@@ -27,7 +27,7 @@ const popularProducts = [
         price: 699,
         oldPrice: 999,
         category: 'products',
-        image: '🌟 Compression Tayt',
+        image: 'https://images.unsplash.com/photo-1506629905607-0b3b5b1b8b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın koşu/tayt
         badge: 'YENİ'
     },
     {
@@ -37,7 +37,7 @@ const popularProducts = [
         price: 1299,
         oldPrice: 1799,
         category: 'products',
-        image: '👟 Koşu Ayakkabısı'
+        image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kırmızı spor ayakkabı
     },
     {
         id: 105,
@@ -46,7 +46,7 @@ const popularProducts = [
         price: 899,
         oldPrice: 1299,
         category: 'products',
-        image: '❄️ Termal Eşofman'
+        image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın kışlık spor giyim
     },
     {
         id: 106,
@@ -55,7 +55,7 @@ const popularProducts = [
         price: 1599,
         oldPrice: 2299,
         category: 'products',
-        image: '⌚ Fitness Saati'
+        image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Akıllı saat
     }
 ];
 
@@ -68,7 +68,7 @@ const erkekProducts = [
         price: 449,
         oldPrice: 699,
         category: 'erkek',
-        image: '💪 Erkek Atlet'
+        image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek kolsuz
     },
     {
         id: 202,
@@ -77,7 +77,7 @@ const erkekProducts = [
         price: 549,
         oldPrice: 799,
         category: 'erkek',
-        image: '🎯 Training T-Shirt'
+        image: 'https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Beyaz T-shirt
     },
     {
         id: 203,
@@ -86,7 +86,7 @@ const erkekProducts = [
         price: 499,
         oldPrice: 749,
         category: 'erkek',
-        image: '🩳 Koşu Şortu'
+        image: 'https://images.unsplash.com/photo-1591191564930-90eb1f55b0a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek şort koşu
     },
     {
         id: 204,
@@ -95,7 +95,7 @@ const erkekProducts = [
         price: 699,
         oldPrice: 999,
         category: 'erkek',
-        image: '⚡ Compression T-Shirt'
+        image: 'https://images.unsplash.com/photo-1620371350502-999e9a7d80a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek dar t-shirt
     },
     {
         id: 205,
@@ -104,7 +104,7 @@ const erkekProducts = [
         price: 799,
         oldPrice: 1199,
         category: 'erkek',
-        image: '🌆 Urban Eşofman'
+        image: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek koşu/jogger
     },
     {
         id: 206,
@@ -113,7 +113,7 @@ const erkekProducts = [
         price: 599,
         oldPrice: 849,
         category: 'erkek',
-        image: '🔧 Cargo Şort'
+        image: 'https://images.unsplash.com/photo-1517438476312-10d79c077509?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek şort
     },
     {
         id: 207,
@@ -122,7 +122,7 @@ const erkekProducts = [
         price: 499,
         oldPrice: 749,
         category: 'erkek',
-        image: '❄️ Uzun Kollu'
+        image: 'https://images.unsplash.com/photo-1527719327859-ac0850141c2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek uzun kollu
     },
     {
         id: 208,
@@ -131,7 +131,7 @@ const erkekProducts = [
         price: 1599,
         oldPrice: 2299,
         category: 'erkek',
-        image: '🧥 Su Geçirmez Ceket'
+        image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Yağmurluk
     },
     {
         id: 209,
@@ -140,7 +140,7 @@ const erkekProducts = [
         price: 749,
         oldPrice: 1099,
         category: 'erkek',
-        image: '🏋️ Training Pantolon'
+        image: 'https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Erkek antrenman
     }
 ];
 
@@ -153,7 +153,7 @@ const kadinProducts = [
         price: 799,
         oldPrice: 1199,
         category: 'kadin',
-        image: '✨ Sculpt Tayt'
+        image: 'https://images.unsplash.com/photo-1506629905607-0b3b5b1b8b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın bacak/tayt
     },
     {
         id: 302,
@@ -162,7 +162,7 @@ const kadinProducts = [
         price: 549,
         oldPrice: 799,
         category: 'kadin',
-        image: '🎽 Sports Bra'
+        image: 'https://images.unsplash.com/photo-1620799140408-ed5341cd2431?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın spor sütyeni
     },
     {
         id: 303,
@@ -171,7 +171,7 @@ const kadinProducts = [
         price: 449,
         oldPrice: 649,
         category: 'kadin',
-        image: '🌊 Yoga T-Shirt'
+        image: 'https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın yoga
     },
     {
         id: 304,
@@ -180,7 +180,7 @@ const kadinProducts = [
         price: 599,
         oldPrice: 899,
         category: 'kadin',
-        image: '🩱 Koşu Şortu'
+        image: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın koşu
     },
     {
         id: 305,
@@ -189,7 +189,7 @@ const kadinProducts = [
         price: 399,
         oldPrice: 599,
         category: 'kadin',
-        image: '🌟 Crop Top'
+        image: 'https://images.unsplash.com/photo-1596356453261-0d265ae2520a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın crop top
     },
     {
         id: 306,
@@ -198,7 +198,7 @@ const kadinProducts = [
         price: 899,
         oldPrice: 1299,
         category: 'kadin',
-        image: '🔥 Cross-Over Tayt'
+        image: 'https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın spor salonu
     },
     {
         id: 307,
@@ -207,7 +207,7 @@ const kadinProducts = [
         price: 999,
         oldPrice: 1399,
         category: 'kadin',
-        image: '❄️ Fleece Eşofman'
+        image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın kışlık
     },
     {
         id: 308,
@@ -216,7 +216,7 @@ const kadinProducts = [
         price: 649,
         oldPrice: 949,
         category: 'kadin',
-        image: '🧥 Uzun Kollu Top'
+        image: 'https://images.unsplash.com/photo-1574680096141-9877b47b4df8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın uzun kollu spor
     },
     {
         id: 309,
@@ -225,7 +225,7 @@ const kadinProducts = [
         price: 379,
         oldPrice: 549,
         category: 'kadin',
-        image: '🌞 Racerback Atlet'
+        image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın atlet
     }
 ];
 
@@ -238,7 +238,7 @@ const aksesuarProducts = [
         price: 199,
         oldPrice: 299,
         category: 'aksesuar',
-        image: '🚰 Suluk'
+        image: 'https://images.unsplash.com/photo-1602143407151-11115cd4e69b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Suluk
     },
     {
         id: 402,
@@ -247,16 +247,16 @@ const aksesuarProducts = [
         price: 699,
         oldPrice: 999,
         category: 'aksesuar',
-        image: '🎒 Gym Çantası'
+        image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Çanta
     },
     {
         id: 403,
-        name: 'Performance No-Show Çorap (3\'lü Paket)',
+        name: 'Performance No-Show Çorap',
         description: '🧦 Teri emen, kokuya karşı özel işlem. 3 çift bir arada!',
         price: 149,
         oldPrice: 229,
         category: 'aksesuar',
-        image: '🧦 Çorap Paketi'
+        image: 'https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Çorap
     },
     {
         id: 404,
@@ -265,7 +265,7 @@ const aksesuarProducts = [
         price: 179,
         oldPrice: 269,
         category: 'aksesuar',
-        image: '📱 Koşu Kılıfı'
+        image: 'https://images.unsplash.com/photo-1526401281623-279a499063b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Telefon/Tech
     },
     {
         id: 405,
@@ -274,7 +274,7 @@ const aksesuarProducts = [
         price: 549,
         oldPrice: 799,
         category: 'aksesuar',
-        image: '💪 Fitness Kemeri'
+        image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Ağırlık/Kemer konsept
     },
     {
         id: 406,
@@ -283,7 +283,7 @@ const aksesuarProducts = [
         price: 299,
         oldPrice: 449,
         category: 'aksesuar',
-        image: '🧢 Koşu Şapkası'
+        image: 'https://images.unsplash.com/photo-1588850561049-949092437156?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Şapka
     }
 ];
 
@@ -296,7 +296,7 @@ const yeniProducts = [
         price: 1299,
         oldPrice: 1699,
         category: 'yeni',
-        image: '🌟 Night Seti'
+        image: 'https://images.unsplash.com/photo-1516726817505-f5ed825624d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Gece koşusu
     },
     {
         id: 502,
@@ -305,7 +305,7 @@ const yeniProducts = [
         price: 749,
         oldPrice: 999,
         category: 'yeni',
-        image: '🍃 Eco Tayt'
+        image: 'https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Doğa/Yoga
     },
     {
         id: 503,
@@ -314,7 +314,7 @@ const yeniProducts = [
         price: 349,
         oldPrice: 499,
         category: 'yeni',
-        image: '🧤 Grip Eldiven'
+        image: 'https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Spor eldiveni/kadın
     },
     {
         id: 504,
@@ -323,7 +323,7 @@ const yeniProducts = [
         price: 1599,
         oldPrice: 2199,
         category: 'yeni',
-        image: '⚡ Ultra Light Koşu'
+        image: 'https://images.unsplash.com/photo-1539185441755-54339c0d23c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Koşu ayakkabısı
     },
     {
         id: 505,
@@ -332,7 +332,7 @@ const yeniProducts = [
         price: 999,
         oldPrice: 1399,
         category: 'yeni',
-        image: '❄️ Thermal Set'
+        image: 'https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Termal/Kış antrenman
     },
     {
         id: 506,
@@ -341,7 +341,7 @@ const yeniProducts = [
         price: 899,
         oldPrice: 1199,
         category: 'yeni',
-        image: '🔥 Tik Tok Tayt'
+        image: 'https://images.unsplash.com/photo-1545912452-8a1591fecc8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Modern tayt
     },
     {
         id: 507,
@@ -350,7 +350,7 @@ const yeniProducts = [
         price: 699,
         oldPrice: 999,
         category: 'yeni',
-        image: '🌀 Koşu Bandı'
+        image: 'https://images.unsplash.com/photo-1598289431512-b97b0917affc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Direnç bandı
     },
     {
         id: 508,
@@ -359,7 +359,7 @@ const yeniProducts = [
         price: 249,
         oldPrice: 349,
         category: 'yeni',
-        image: '🥤 Protein Şişesi'
+        image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Shaker/Şişe
     },
     {
         id: 509,
@@ -368,7 +368,7 @@ const yeniProducts = [
         price: 799,
         oldPrice: 1099,
         category: 'yeni',
-        image: '🍃 Scent-Free Çanta'
+        image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Çanta
     },
     {
         id: 510,
@@ -377,7 +377,7 @@ const yeniProducts = [
         price: 399,
         oldPrice: 549,
         category: 'yeni',
-        image: '💆 Foam Roller'
+        image: 'https://images.unsplash.com/photo-1600881333168-2ef49b341f30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Yoga mat/roller
     },
     {
         id: 511,
@@ -386,7 +386,7 @@ const yeniProducts = [
         price: 599,
         oldPrice: 849,
         category: 'yeni',
-        image: '👙 Aqua Bikini'
+        image: 'https://images.unsplash.com/photo-1575424909138-46b05e5919ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Kadın yüzücü
     },
     {
         id: 512,
@@ -395,7 +395,7 @@ const yeniProducts = [
         price: 899,
         oldPrice: 1299,
         category: 'yeni',
-        image: '🥊 Boxing Eldiveni'
+        image: 'https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Eldiven/Boks
     }
 ];
 
@@ -408,7 +408,7 @@ const indirimProducts = [
         price: 199,
         oldPrice: 449,
         category: 'indirim',
-        image: '💥 Clearance T-Shirt'
+        image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // T-shirt
     },
     {
         id: 602,
@@ -417,7 +417,7 @@ const indirimProducts = [
         price: 299,
         oldPrice: 649,
         category: 'indirim',
-        image: '🔥 Outlet Şort'
+        image: 'https://images.unsplash.com/photo-1506629905607-0b3b5b1b8b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Şort
     },
     {
         id: 603,
@@ -426,7 +426,7 @@ const indirimProducts = [
         price: 399,
         oldPrice: 899,
         category: 'indirim',
-        image: '❗ Last Chance Çanta'
+        image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Çanta
     },
     {
         id: 604,
@@ -435,7 +435,7 @@ const indirimProducts = [
         price: 99,
         oldPrice: 229,
         category: 'indirim',
-        image: '⚡ Flash Sale Çorap'
+        image: 'https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Çorap
     },
     {
         id: 605,
@@ -444,7 +444,7 @@ const indirimProducts = [
         price: 799,
         oldPrice: 1599,
         category: 'indirim',
-        image: '📦 B-Stock Ayakkabı'
+        image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Ayakkabı
     },
     {
         id: 606,
@@ -453,7 +453,7 @@ const indirimProducts = [
         price: 349,
         oldPrice: 799,
         category: 'indirim',
-        image: '🎯 Final Sale Sweatshirt'
+        image: 'https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', // Sweatshirt
     }
 ];
 
